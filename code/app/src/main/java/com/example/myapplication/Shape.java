@@ -9,3 +9,16 @@ public abstract class Shape {
         this.y = y;
     }
 }
+
+class Circle extends Shape {
+    Integer radius;
+
+    public Circle(Integer x, Integer y, Integer radius) {
+        super(x, y);
+        this.radius = radius;
+    }
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
