@@ -2,7 +2,7 @@
 package com.example.myapplication;
 
 public class triangle extends Shape{
-    triangle(integer x, integer x){
+    triangle(Integer x, Integer y){
         super(x,y);
     }
 }
