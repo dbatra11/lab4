@@ -3,6 +3,8 @@ package com.example.myapplication;
 public abstract class Shape {
     Integer x;
     Integer y;
+    
+    String color = "red";
 
     String color = "red";
 
@@ -11,4 +13,3 @@ public abstract class Shape {
         this.y = y;
     }
 }
-
